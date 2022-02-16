@@ -1,3 +1,5 @@
 Registro de Factura
 
-Prueba de Commit
+public void registrarFactura(Factura factura){
+    facturaRepository.save(factura);
+}
